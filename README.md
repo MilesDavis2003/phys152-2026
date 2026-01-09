@@ -1,5 +1,4 @@
-# phys152-2026
-Repository for PHYS 152 (Physics and Machine Learning) at UCSC in Winter 2026
+# Repository for PHYS 152 (Physics and Machine Learning) at UCSC in Winter 2026
 
 We will use the Git version control system to manage some of the course content, specifically lecture notebooks and homework assignments
 You can viewing the notebooks directly on github, but you can't execute the cells, and not all of the graphics will render correctly.
@@ -8,7 +7,7 @@ To interact more fully with the content you can use JupyterLab locally or Google
 
 For most people looking to access and run course content right away, Google Colab is the fastest approach, even if it takes a little bit of setup.
 
-## Using Google Colab
+# Using Google Colab
 
 You can access Google Colab here: (https://colab.research.google.com/). 
 Students have access to the Colab Pro version for free: (https://colab.research.google.com/signup).
@@ -24,12 +23,12 @@ Enter an appropriate commit message and click "OK".
 Note: after you do this, check your fork in github to see that the new content is there!  
 If not, of if there's a problem saving, then make sure to download  your content (assuming you want to keep it) so you don't lose your work.
 
-## Using Jupyter
+# Using Jupyter
 
 When using Jupyter, you'll first need to get the course content onto the filesystem of whatever computer you're using to run Jupyter.  
 The best way to do this is by using SSH keys to access your Jupyter fork.
 
-### Generating SSH keys to work with github (for use in Jupyter servers or your laptop)
+## Generating SSH keys to work with github (for use in Jupyter servers or your laptop)
 
 First, we'll generate ssh keys on our jupyter server.  
 (If you're using colab, then there's a way to connect colab directly to your github repo!)
@@ -48,14 +47,14 @@ Next, we'll get the public key we just generated and put it into gitlab:
 7. In the title, put whatever your hostname is, or whatever label you want to use for this server
 8. Modify other settings as you like, then click "Add key" at the bottom-left.
 
-### Creating your fork of the course repository
+## Creating your fork of the course repository
 
 See HW0 for instruction on this.  
 
-Once you've created your fork, you can get the files from that repository on Jupyter by running the following in a terminal (replace `<username>` with your own username, and if you called your fork something other than `phys152_2026` then you'll need to change that part of the string as well):
+Once you've created your fork, you can get the files from that repository on Jupyter by running the following in a terminal (replace `<username>` with your own username, and if you called your fork something other than `phys152-2026` then you'll need to change that part of the string as well):
 
 ```
-git clone git@github.com:<username>/phys152_2026.git
+git clone git@github.com:<username>/phys152-2026.git
 ```
 
 That will create a directory in your Jupyter area that has your fork.
